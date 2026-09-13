@@ -5,7 +5,8 @@
 
 ## Demo
 
-[![BRD2BUILD Demo](docs/demo-thumbnail.png)](https://www.youtube.com/watch?v=kxKiX04mfkc)
+[![BRD2BUILD Demo](BRD2BUILD_Thumbnail
+.png)](https://www.youtube.com/watch?v=kxKiX04mfkc)
 
 
 BRD2BUILD is an AI-powered platform designed to streamline the Software Development Life Cycle by connecting requirements analysis, backlog creation, software development, testing, and technical documentation within a unified workflow.
