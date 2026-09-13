@@ -1,0 +1,51 @@
+# Product Requirements Document: TaskFlow Lite
+
+## Overview
+TaskFlow Lite is a simple team task management web app for small engineering teams.
+
+## Goals
+- Allow users to create, assign, and track tasks
+- Provide basic project boards
+- Send email notifications on assignment and status change
+
+## Users
+- Admin: manages projects and users
+- Member: works on assigned tasks
+- Viewer: read-only access
+
+## Features
+
+### 1. Authentication
+- Email/password login
+- JWT-based sessions
+- Password reset via email
+
+### 2. Projects
+- Create/edit/archive projects
+- Add members with roles (admin, member, viewer)
+
+### 3. Tasks
+- Create task with title, description, due date, priority
+- Assign task to a project member
+- Status workflow: Todo → In Progress → Review → Done
+- Comment on tasks
+- Filter tasks by assignee, status, priority
+
+### 4. Notifications
+- Email when a task is assigned
+- Email when status changes to Review or Done
+- In-app notification center (optional MVP+)
+
+### 5. Reporting
+- Basic dashboard: open tasks, overdue tasks, completed this week
+
+## Non-functional
+- REST API backend
+- Responsive web UI
+- 99.5% uptime target
+- GDPR-friendly data deletion for user accounts
+
+## Out of scope (v1)
+- Mobile native apps
+- Time tracking
+- Integrations with Jira/GitHub

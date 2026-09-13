@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+uploads/*
+!uploads/.gitkeep
+generated/*
+!generated/.gitkeep
+data/*
+!data/.gitkeep
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+*.zip
+!sample_code/**
